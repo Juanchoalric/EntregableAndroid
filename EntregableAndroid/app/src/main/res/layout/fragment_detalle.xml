@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.juancho.entregableandroid.DetalleFragment">
+
+    <TextView
+        android:id="@+id/titulo_detalle_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="Camara asus"
+        />
+
+    <ImageView
+        android:id="@+id/imagen_detalle_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/computadora_asus"/>
+
+    <TextView
+        android:id="@+id/precio_detalle_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="$1300"/>
+
+    <TextView
+        android:id="@+id/descripcion_detalle_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="eofje ooejfeofhoeshofhefo eoepf pofsefhefh  huesfuesufeu ig fueisf g egu igfsufef fi eiuesg eigfeu sgiugfeusifgfuigesfgfe u u ifeugfuiegfuieuf"/>
+
+
+</LinearLayout>
